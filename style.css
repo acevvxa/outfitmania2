@@ -1,0 +1,59 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: black;
+  height: 100%;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.outfit-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.clothing {
+  display: block;
+  margin: 10px auto;
+  max-width: 200px;
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  background: yellow;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: black;
+}
+select {
+  margin: 5px;
+  padding: 5px;
+  background: black;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  font-size: 14px;
+}
+label {
+  margin: 0 5px;
+}
